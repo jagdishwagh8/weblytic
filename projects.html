@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Our Projects | Weblytic — Website Design & Development</title>
+    <meta name="description" content="Explore Weblytic's website projects, including business websites, creative portfolios, and landing pages designed for usability and business growth.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL: replace with your actual page URL -->
+    <link rel="canonical" href="https://www.example.com/projects.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph: social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Weblytic">
+    <meta property="og:title" content="Our Projects | Weblytic — Website Design & Development">
+    <meta property="og:description" content="Explore Weblytic's website projects, from professional business websites to creative portfolios and landing pages.">
+    <meta property="og:url" content="https://www.example.com/projects.html">
+    <meta property="og:image" content="https://www.example.com/images/projects-preview.jpg">
+    <meta property="og:image:alt" content="Preview of Weblytic's website design projects">
+
+    <!-- X (Twitter) sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Projects | Weblytic">
+    <meta name="twitter:description" content="Explore Weblytic's business websites, portfolio designs, and landing pages.">
+    <meta name="twitter:image" content="https://www.example.com/images/projects-preview.jpg">
+
+    <!-- Browser theme -->
+    <meta name="theme-color" content="#F5F1E9">
+
+</head>
+<body>
+    
+<!-- ================= NAVBAR ================= -->
+<header class="pro-right-nav">
+    <nav class="pro-right-nav__inner" aria-label="Main navigation">
+
+        <!-- LEFT LOGO -->
+        <a href="#" class="pro-right-nav__brand" aria-label="Weblytic home">
+            <!-- ADDED LOGO IMAGE HERE -->
+            <img src="logo.png" alt="Weblytic Logo" class="pro-right-nav__logo-img">
+            
+            <span class="pro-right-nav__brand-text">
+                <span class="pro-right-nav__brand-name">WEBLYTIC</span>
+            </span>
+        </a>
+
+        <!-- MOBILE MENU TOGGLE -->
+        <input
+            type="checkbox"
+            id="pro-right-nav-toggle"
+            class="pro-right-nav__toggle"
+            aria-label="Toggle navigation menu"
+            aria-controls="pro-right-nav-links"
+        >
+
+        <label
+            for="pro-right-nav-toggle"
+            class="pro-right-nav__toggle-label"
+            aria-hidden="true"
+        >
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- RIGHT LINKS AND CTA -->
+        <div class="pro-right-nav__right">
+            <ul class="pro-right-nav__links" id="pro-right-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="contact.html" class="pro-right-nav__contact">
+                Discuss Your Project <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+
+    </nav>
+</header>
+
+
+    
+
+    <!-- <section class="professional-project-cards" id="projects">
+    <div class="ppc-container">
+
+        <header class="ppc-header">
+        <div class="ppc-heading">
+            <p class="ppc-eyebrow">Project Case Studies</p>
+            <h2>Practical solutions.<br /><span>Professional results.</span></h2>
+        </div>
+
+        <p class="ppc-header-copy">
+            Each project is planned around business requirements,
+            straightforward navigation, and a consistent user experience.
+        </p>
+        </header>
+
+        <div class="ppc-section-rule"></div>
+
+        <div class="ppc-list">
+
+        <article class="ppc-card">
+            <div class="ppc-image">
+            <img
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85"
+                alt="Professional office and workspace"
+                loading="lazy"
+            />
+            <span class="ppc-project-id">CASE 01</span>
+            <span class="ppc-project-type">Business Website</span>
+            </div>
+
+            <div class="ppc-card-content">
+            <div class="ppc-card-topline">
+                <span>Corporate Services</span>
+                <span>Website Design</span>
+            </div>
+
+            <h3>Workspace Solutions</h3>
+
+            <p class="ppc-description">
+                A structured business website that presents services,
+                communicates key information, and makes enquiries straightforward.
+            </p>
+
+            <ul class="ppc-deliverables">
+                <li>Responsive page layouts</li>
+                <li>Service information</li>
+                <li>Contact and enquiry options</li>
+                <li>Basic on-page SEO</li>
+            </ul>
+
+            <div class="ppc-card-footer">
+                <div class="ppc-status">
+                <span></span> Project Example
+                </div>
+                <a class="ppc-view-link" href="#contact">
+                Discuss Similar Work <span aria-hidden="true">→</span>
+                </a>
+            </div>
+            </div>
+        </article>
+
+        <article class="ppc-card">
+            <div class="ppc-image">
+            <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85"
+                alt="Contemporary interior design and furnishings"
+                loading="lazy"
+            />
+            <span class="ppc-project-id">CASE 02</span>
+            <span class="ppc-project-type">Portfolio Website</span>
+            </div>
+
+            <div class="ppc-card-content">
+            <div class="ppc-card-topline">
+                <span>Creative Services</span>
+                <span>Portfolio Design</span>
+            </div>
+
+            <h3>Interior Studio</h3>
+
+            <p class="ppc-description">
+                An image-led portfolio concept designed to present selected
+                projects, describe services, and establish professional credibility.
+            </p>
+
+            <ul class="ppc-deliverables">
+                <li>Project gallery</li>
+                <li>Studio introduction</li>
+                <li>Service overview</li>
+                <li>Contact information</li>
+            </ul>
+
+            <div class="ppc-card-footer">
+                <div class="ppc-status">
+                <span></span> Project Example
+                </div>
+                <a class="ppc-view-link" href="#contact">
+                Discuss Similar Work <span aria-hidden="true">→</span>
+                </a>
+            </div>
+            </div>
+        </article>
+
+        <article class="ppc-card">
+            <div class="ppc-image">
+            <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+                alt="Contemporary architecture and interior space"
+                loading="lazy"
+            />
+            <span class="ppc-project-id">CASE 03</span>
+            <span class="ppc-project-type">Business Website</span>
+            </div>
+
+            <div class="ppc-card-content">
+            <div class="ppc-card-topline">
+                <span>Architecture</span>
+                <span>Business Design</span>
+            </div>
+
+            <h3>Architecture Practice</h3>
+
+            <p class="ppc-description">
+                A professional website concept that organizes business
+                information and showcases work through a clear page structure.
+            </p>
+
+            <ul class="ppc-deliverables">
+                <li>Company overview</li>
+                <li>Project presentation</li>
+                <li>Dedicated service pages</li>
+                <li>Mobile-friendly design</li>
+            </ul>
+
+            <div class="ppc-card-footer">
+                <div class="ppc-status">
+                <span></span> Project Example
+                </div>
+                <a class="ppc-view-link" href="#contact">
+                Discuss Similar Work <span aria-hidden="true">→</span>
+                </a>
+            </div>
+            </div>
+        </article>
+
+        <article class="ppc-card">
+            <div class="ppc-image">
+            <img
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1000&q=85"
+                alt="Lifestyle products in a clean, minimal setting"
+                loading="lazy"
+            />
+            <span class="ppc-project-id">CASE 04</span>
+            <span class="ppc-project-type">Landing Page</span>
+            </div>
+
+            <div class="ppc-card-content">
+            <div class="ppc-card-topline">
+                <span>Product &amp; Lifestyle</span>
+                <span>Landing Page</span>
+            </div>
+
+            <h3>Modern Living</h3>
+
+            <p class="ppc-description">
+                A focused landing page concept that highlights an offer,
+                communicates its benefits, and provides a clear next step.
+            </p>
+
+            <ul class="ppc-deliverables">
+                <li>Focused page structure</li>
+                <li>Benefit-led content</li>
+                <li>Clear call to action</li>
+                <li>Responsive design</li>
+            </ul>
+
+            <div class="ppc-card-footer">
+                <div class="ppc-status">
+                <span></span> Project Example
+                </div>
+                <a class="ppc-view-link" href="#contact">
+                Discuss Similar Work <span aria-hidden="true">→</span>
+                </a>
+            </div>
+            </div>
+        </article>
+
+        </div>
+
+        <footer class="ppc-contact-panel">
+        <div>
+            <h3>Planning a website for your business?</h3>
+            <p>Share your requirements to discuss a suitable scope and approach.</p>
+        </div>
+
+        <a class="ppc-contact" href="#contact">
+            Contact Our Team <span aria-hidden="true">→</span>
+        </a>
+        </footer>
+
+    </div>
+    </section> -->
+
+
+
+    <!-- <section class="pro-horizontal-gallery" id="gallery">
+    <div class="phg-layout">
+
+        <aside class="phg-sidebar">
+        <p class="phg-label">Project Overview</p>
+
+        <h2>Work that speaks for itself.</h2>
+
+        <p>
+            Explore a selection of projects built around clear
+            communication, dependable design, and practical business goals.
+        </p>
+
+        <div class="phg-count">
+            <strong>06</strong>
+            <span>Selected projects</span>
+        </div>
+
+        <div class="phg-sidebar-note">
+            <span class="phg-status-dot"></span>
+            <span>Designed with consistency, usability, and detail in mind.</span>
+        </div>
+        </aside>
+
+        <div class="phg-gallery-main">
+        <div class="phg-gallery-heading">
+            <h3>Selected Projects</h3>
+            <span>Scroll horizontally to explore →</span>
+        </div>
+
+        <div
+            class="phg-strip"
+            role="region"
+            aria-label="Selected project cards. Scroll horizontally to view all projects."
+            tabindex="0"
+        >
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=85"
+                alt="Professional modern workspace"
+                loading="lazy"
+                />
+                <span class="phg-card-number">01</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Business Website</p>
+                <h4>Workspace Solutions</h4>
+                <p>A clear online presence for a professional business.</p>
+            </figcaption>
+            </figure>
+
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=85"
+                alt="Contemporary interior design"
+                loading="lazy"
+                />
+                <span class="phg-card-number">02</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Portfolio Website</p>
+                <h4>Interior Studio</h4>
+                <p>A structured showcase for creative work and services.</p>
+            </figcaption>
+            </figure>
+
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=85"
+                alt="Contemporary architectural space"
+                loading="lazy"
+                />
+                <span class="phg-card-number">03</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Business Website</p>
+                <h4>Architecture Practice</h4>
+                <p>Project-led presentation with straightforward navigation.</p>
+            </figcaption>
+            </figure>
+
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=85"
+                alt="Lifestyle products in a minimal setting"
+                loading="lazy"
+                />
+                <span class="phg-card-number">04</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Landing Page</p>
+                <h4>Modern Living</h4>
+                <p>A focused page designed to present a clear offer.</p>
+            </figcaption>
+            </figure>
+
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=85"
+                alt="Modern residential interior"
+                loading="lazy"
+                />
+                <span class="phg-card-number">05</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Business Website</p>
+                <h4>Residential Design</h4>
+                <p>Services and project imagery presented in a clear format.</p>
+            </figcaption>
+            </figure>
+
+            <figure class="phg-card">
+            <div class="phg-card-image">
+                <img
+                src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=700&q=85"
+                alt="Minimalist interior design details"
+                loading="lazy"
+                />
+                <span class="phg-card-number">06</span>
+            </div>
+            <figcaption class="phg-card-details">
+                <p class="phg-card-category">Portfolio Website</p>
+                <h4>Minimal Studio</h4>
+                <p>A clean project gallery with a consistent visual system.</p>
+            </figcaption>
+            </figure>
+        </div>
+
+        <div class="phg-gallery-footer">
+            <p>Have a similar requirement? Let's discuss your project.</p>
+            <a class="phg-contact" href="#contact">
+            Contact Our Team <span aria-hidden="true">→</span>
+            </a>
+        </div>
+        </div>
+
+    </div>
+    </section> -->
+
+
+
+    <section class="mr-image-cta" id="contact">
+    <div class="mr-image-cta__container">
+
+        <!-- Image Side -->
+        <div class="mr-image-cta__visual">
+        <img
+            src="pr.jpg"
+            alt="Elegant contemporary interior with warm neutral materials"
+            loading="lazy"
+        >
+
+        <span class="mr-image-cta__image-label">
+            THOUGHTFULLY DESIGNED
+        </span>
+        </div>
+
+        <!-- Content Side -->
+        <div class="mr-image-cta__content">
+        <span class="mr-image-cta__eyebrow">
+            YOUR NEXT CHAPTER
+        </span>
+
+        <h2 class="mr-image-cta__title">
+            Good ideas<br>
+            deserve to be<br>
+            brought to life.
+        </h2>
+
+        <p class="mr-image-cta__description">
+            Every meaningful project starts with a clear vision.
+            Let's turn your ideas into a considered digital
+            experience built around your business.
+        </p>
+
+        <a href="contact.html" class="mr-image-cta__button">
+            Let's Discuss Your Project
+            <span aria-hidden="true">↗</span>
+        </a>
+
+        <div class="mr-image-cta__note">
+            <span class="mr-image-cta__note-line"></span>
+            <span>PERSONAL APPROACH. PURPOSEFUL RESULTS.</span>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="mini-footer">
+    <div class="mini-footer__container">
+
+        <div class="mini-footer__main">
+
+            <!-- Brand -->
+            <a href="#" class="mini-footer__brand" aria-label="Weblytic home">
+                <!-- ADDED LOGO IMAGE HERE -->
+                <img src="logo.png" alt="Weblytic Logo" class="mini-footer__logo-img">
+                
+                <span class="mini-footer__brand-name">WEBLYTIC</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav aria-label="Footer navigation">
+                <ul class="mini-footer__links">
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contact -->
+            <a class="mini-footer__contact" href="contact.html">
+                Get in touch ↗
+            </a>
+
+        </div>
+
+        <!-- Copyright and social links -->
+        <div class="mini-footer__bottom">
+            <p class="mini-footer__copyright">
+                © 2026 Weblytic. All rights reserved.
+            </p>
+
+            <div class="mini-footer__socials" aria-label="Social media">
+                <a href="https://github.com/jagdishwagh8" aria-label="Github">Github</a>
+                <a href="https://www.instagram.com/weblyticdev/" aria-label="Instagram">Instagram</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
