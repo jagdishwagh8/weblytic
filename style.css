@@ -2582,13 +2582,13 @@ button:hover, .btn:hover, [class*="button"]:hover, [class*="btn"]:hover {
     box-shadow: var(--shadow-hover);
   }
 
-.stage {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;   /* YouTube video ratio */
-  overflow: hidden;
-  background: var(--color-bg);
-}
+  .stage {
+     position: relative;
+     width: 100%;
+     aspect-ratio: 16 / 9;   /* YouTube video ratio */
+     overflow: hidden;
+     background: var(--color-bg);
+   }
 
   .main-img {
     width: 100%;
@@ -2799,7 +2799,7 @@ button:hover, .btn:hover, [class*="button"]:hover, [class*="btn"]:hover {
       gap: 12px;
     }
 /* DELETE */
-.stage { height: clamp(180px, 52vw, 250px); }
+    .stage { height: clamp(180px, 52vw, 250px); }
     .thumbs {
       flex-direction: row;
       gap: 10px;
@@ -2838,7 +2838,8 @@ button:hover, .btn:hover, [class*="button"]:hover, [class*="btn"]:hover {
     .sec-head p { font-size: 14px; line-height: 1.8; }
 
 /* DELETE */
-.stage { height: clamp(170px, 56vw, 240px); }    .panel-body { padding: 18px 18px 20px; gap: 9px; }
+    .stage { height: clamp(170px, 56vw, 240px); }    
+    .panel-body { padding: 18px 18px 20px; gap: 9px; }
     .title-row h3 { font-size: 21px; }
     .panel-body p { font-size: 13px; line-height: 1.75; }
 
